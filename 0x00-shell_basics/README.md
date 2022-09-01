@@ -11,3 +11,7 @@
 10-back -changes the working directory to the previous one.
 11-lists -  lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
 14-copy_html - Copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
+100-lets_move -  moves all files beginning with an uppercase letter to the directory /tmp/u.
+
+
+You can assume that the directory /tmp/u will exist when we will run your script
